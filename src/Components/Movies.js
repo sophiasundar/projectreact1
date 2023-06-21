@@ -17,7 +17,7 @@ const Movie=({element})=>{ //destructuring
          }
         console.log(toggleSummary.display);
 
-        const  ratingStyle={
+        const ratingStyle={
             color:rating>8? "green":"red"
              
         }
