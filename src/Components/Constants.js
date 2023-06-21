@@ -1,14 +1,4 @@
-
-
-import './App.css';
-import Movie from './Components/Movies';
-import AddColor from './Components/AddColor';
-import Navbar from './Components/Navbar';
-
-
-function App() {
-    
-  const movie=[
+export const allmovies=[
     {
       name: "Vikram",
       poster:
@@ -80,24 +70,3 @@ function App() {
         "Remy, a rat, aspires to become a renowned French chef. However, he fails to realise that people despise rodents and will never enjoy a meal cooked by him."
     }
   ];
-
-
-  return (
-    <>
-    <Navbar></Navbar>
-    <AddColor></AddColor>
-    
-    <div className="App">
-
-      {
-        movie.map((element)=>{
-         
-          return <Movie element={element}/>
-        })
-      }
-     </div>
-     </>
-  );
-}
-
-export default App;
