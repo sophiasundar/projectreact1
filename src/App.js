@@ -1,6 +1,8 @@
 
+import { Navbar } from 'react-bootstrap';
 import './App.css';
 import Movie from './Components/Movies';
+import AddColor from './Components/AddColor';
 
 function App() {
     
@@ -79,6 +81,10 @@ function App() {
 
 
   return (
+    <>
+    <Navbar/>
+    <AddColor></AddColor>
+    
     <div className="App">
 
       {
@@ -87,6 +93,7 @@ function App() {
         })
       }
      </div>
+     </>
   );
 }
 
