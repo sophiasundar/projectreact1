@@ -12,17 +12,17 @@ const Counter=()=>{
         <>
         <div className="counter">
               {/* <h1>Counter</h1> */}
-              <button  
+              <button  className="likeButton" 
               onClick={()=>{
                 //    like++
                 //    console.log(like)
                    setLike(like+1)
-              }}>Like {like}</button>
-              <button     //dislike button
+              }}>👍 {like}</button>
+              <button  className="dislikeButton"    //dislike button
               onClick={
                 ()=>{
                 setDislike(disLike+1)
-              }}>Dislike {disLike}</button>
+              }}>👎 {disLike}</button>
         </div>
         </> 
     )

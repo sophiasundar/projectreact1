@@ -83,13 +83,10 @@ function App() {
 
       {
         movie.map((element)=>{
-          return <Movie element={element}></Movie>
+          return <Movie element={element}/>
         })
       }
-      <Movie></Movie>
-
-
-    </div>
+     </div>
   );
 }
 
