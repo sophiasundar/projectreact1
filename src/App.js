@@ -4,6 +4,7 @@ import './App.css';
 import Movie from './Components/Movies';
 import AddColor from './Components/AddColor';
 import Navbar from './Components/Navbar';
+// import Board from './Components/TicTacToeGame/Board';
 
 
 function App() {
