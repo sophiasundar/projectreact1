@@ -1,4 +1,5 @@
 import { useState } from "react"
+import ColorBox from "./ColorBox"
 
 
 const AddColor1 = () => {
@@ -9,16 +10,18 @@ const AddColor1 = () => {
         console.log(colorList)
 
         const inputStyle={
-        backgroundColor:colorVal 
+        // backgroundColor:colorVal,
+        height:"40px", 
+        Width:"100px"
          }
-
+ 
 
     return(
       <div>
 
        <input type="text" value={colorVal} style={inputStyle}
        onChange={(e)=>{
-         console.log(e.target.value)
+        //  console.log(e.target.value)
          setColorVal(e.target.value) 
        }}/>
  
@@ -28,10 +31,10 @@ const AddColor1 = () => {
            console.log(colorList)
        }}
        >ADD COLOR</button>
-      
+      <ColorBox></ColorBox>
       {
         colorList.map((element,index)=>{
-          return<div style={{height: "50px", width:"100px", backgroundcolor:element,marginBottom:"2px"}}> </div>
+          return <ColorBox element={element}/>
           })
       }
       </div>

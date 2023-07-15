@@ -7,7 +7,7 @@ const colorStyle={height:"50px",width:"230px",backgroundColor:element,marginBott
     return(
         <>
        <div style={colorStyle}></div>
-       <h1>hello</h1>
+      
        </>
     )
 }

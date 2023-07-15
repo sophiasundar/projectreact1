@@ -5,6 +5,7 @@ import Movie from './Components/Movies';
 import AddColor from './Components/AddColor';
 import Navbar from './Components/Navbar';
 import AddColor1 from './Components/AddColor1';
+import { Nav } from 'react-bootstrap';
 // import Board from './Components/TicTacToeGame/Board';
 
 
@@ -86,7 +87,7 @@ function App() {
 
   return (
     <>
-    <Navbar></Navbar>
+   <Navbar></Navbar>
     <AddColor></AddColor>
     <AddColor1></AddColor1>
     <div className="App">
