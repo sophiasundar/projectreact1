@@ -4,6 +4,7 @@ import './App.css';
 import Movie from './Components/Movies';
 import AddColor from './Components/AddColor';
 import Navbar from './Components/Navbar';
+import AddColor1 from './Components/AddColor1';
 // import Board from './Components/TicTacToeGame/Board';
 
 
@@ -87,7 +88,7 @@ function App() {
     <>
     <Navbar></Navbar>
     <AddColor></AddColor>
-    
+    <AddColor1></AddColor1>
     <div className="App">
 
       {
