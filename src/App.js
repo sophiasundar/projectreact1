@@ -5,7 +5,8 @@ import Movie from './Components/Movies';
 import AddColor from './Components/AddColor';
 import Navbar from './Components/Navbar';
 import AddColor1 from './Components/AddColor1';
-import { Nav } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 // import Board from './Components/TicTacToeGame/Board';
 
 

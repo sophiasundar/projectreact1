@@ -1,4 +1,4 @@
-import Movie from "./Movies";
+ import Movie from "./Movies";
 import { allmovies } from "./Constants"
 
 
