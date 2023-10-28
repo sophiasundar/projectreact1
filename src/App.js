@@ -6,7 +6,7 @@ import AddColor from './Components/AddColor';
 import Navbar from './Components/Navbar';
 import AddColor1 from './Components/AddColor1';
 import 'bootstrap/dist/css/bootstrap.min.css'
-
+import { Route, Routes} from "react-router-dom";
 // import Board from './Components/TicTacToeGame/Board';
 
 
@@ -89,6 +89,8 @@ function App() {
   return (
     <>
    <Navbar></Navbar>
+   <Route></Route>
+   <Routes></Routes>
     <AddColor></AddColor>
     <AddColor1></AddColor1>
     <div className="App">
