@@ -16,7 +16,7 @@
   width:90%;
   margin-right:5%;
   margin-left:5%;
-  margin-top:2%;
+  margin-top:1%;
 }
 .movieSpecs{
   display: flex;
@@ -33,4 +33,16 @@
 .likeButton,.dislikeButton{
   padding: 2px 4px 2px 4px;
   margin-left: 4px;
+}
+
+.valid{
+	display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  text-decoration:underline;
+  text-decoration-color: brown;
+  text-shadow: 4ch;
+  text-overflow: clip;
 }
